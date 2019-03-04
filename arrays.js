@@ -30,7 +30,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 function removeElementFromBeginningOfArray(array) {
   var newArray = []
   newArray = array.slice(1,array.length);
-  return array;
+  return newArray;
 }
 function destructivelyRemoveElementFromEndOfArray(array) {
   array.pop();
